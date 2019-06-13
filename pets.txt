@@ -1,0 +1,38 @@
+
+//TO ADD THESE PETS INTO THE APP, COPY AND PASTE THIS IN TERMINAL
+
+curl -X POST -H 'Content-Type: application/json' -d \
+'{
+  "id" : 1,
+  "breed" : "Munchkin",
+  "specie" : "Cats",
+  "price" : 25000.00,
+  "stock" : 10
+}' https://practiceiv-on-gcloud.appspot.com/products/create
+curl -X POST -H 'Content-Type: application/json' -d \
+'{
+  "id" : 2,
+  "breed" : "Pug",
+  "specie" : "Dogs",
+  "price" : 40000.00,
+  "stock" : 5
+}' https://practiceiv-on-gcloud.appspot.com/products/create
+
+curl -X POST -H 'Content-Type: application/json' -d \
+'{
+  "id" : 3,
+  "breed" : "Parrot",
+  "specie" : "Birds",
+  "price" : 15000.00,
+  "stock" : 4
+}' https://practiceiv-on-gcloud.appspot.com/products/create
+
+curl -X POST -H 'Content-Type: application/json' -d \
+'{
+  "id" : 4,
+  "breed" : "Goldenfish",
+  "specie" : "Fish",
+  "price" : 18000.00,
+  "stock" : 6
+}' https://practiceiv-on-gcloud.appspot.com/products/create
+

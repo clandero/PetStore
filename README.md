@@ -1,2 +1,2 @@
-# PetStore
-Pet Store built in Flask - API Gateway
+# ProductMicroservice
+RESTful API made in Flask - Pet Store Product Microservice

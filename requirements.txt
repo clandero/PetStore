@@ -1,0 +1,4 @@
+Flask>=0.12.3
+werkzeug==0.12.2
+marshmallow
+requests

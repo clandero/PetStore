@@ -1,5 +1,5 @@
 Flask>=0.12.3
-werkzeug==0.14
+werkzeug==0.15.3
 marshmallow
 requests
 requests-toolbelt
